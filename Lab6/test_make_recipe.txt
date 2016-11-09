@@ -1,0 +1,2 @@
+Test.o: Test.h Test.cpp
+	g++ -g -Wall -std=c++11 -c Test.cpp

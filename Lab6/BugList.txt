@@ -1,0 +1,13 @@
+Size: working
+
+AddFront: working; increments size correctly
+
+AddBack: appears to be adding to the Front instead of back; increments size correctly
+
+RemoveFront: doesn't remove values from front and leaves the size in tact, returns false; empty list case is covered;
+not working since isEmpty doesn't work
+
+isEmpty: doesn't work after an add
+
+removeBack: doesn't remove values from back and leaves size in tact, returns false; empty list case is covered; not 
+working since isEmpty doesn't work
