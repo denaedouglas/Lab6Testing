@@ -12,10 +12,8 @@ main.o: main.cpp Test.cpp
 
 
 #Add needed Test.o recipe and compiler command
-
 Test.o: Test.h Test.cpp
 	g++ -g -Wall -std=c++11 -c Test.cpp
-
 #DON'T delete LinkedList.o!
 clean:
 	rm main.o *.*~ prog
